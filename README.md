@@ -24,16 +24,27 @@ Wizard &gt;&gt;&gt;
 Congratulations on your new Dell EMC purchase!
 
 Your purchase and use of this Dell EMC product is subject to and governed
-by the Dell EMC Commercial Terms of Sale, unless you have a separate written agreement with Dell EMC that specifically applies to your order, and the End User License Agreement (E-EULA), <span class="hljs-built_in">which</span> are each presented below <span class="hljs-keyword">in</span> the following order:
+by the Dell EMC Commercial Terms of Sale, unless you have a separate written
+agreement with Dell EMC that specifically applies to your order, and the End
+User License Agreement (E-EULA), which are each presented below in the
+following order:
 
 *       Commercial Terms of Sale
 *       End User License Agreement (E-EULA)
 
-The Commercial Terms of Sale <span class="hljs-keyword">for</span> the United States are presented below and
-are also available online at the website below that corresponds to the country <span class="hljs-keyword">in</span> <span class="hljs-built_in">which</span> this product was purchased.
+The Commercial Terms of Sale for the United States are presented below and
+are also available online at the website below that corresponds to the country
+in which this product was purchased.
 
-By the act of clicking <span class="hljs-string">"I accept,"</span> you agree (or re-affirm your agreement to) the foregoing terms and conditions.  To the extent that Dell Inc. or any Dell Inc. direct or indirect subsidiary (<span class="hljs-string">"Dell"</span>) is deemed under applicable law to have accepted an offer by you: (a) Dell hereby objects to and rejects all additional or inconsistent terms that may be contained <span class="hljs-keyword">in</span> any purchase order or other documentation submitted by you <span class="hljs-keyword">in</span> connection with your order; and (b)
---More--(<span class="hljs-number">2</span>%)
+By the act of clicking "I accept," you agree (or re-affirm your agreement to)
+the foregoing terms and conditions.  To the extent that Dell Inc. or any Dell
+Inc.'s direct or indirect subsidiary ("Dell") is deemed under applicable law
+to have accepted an offer by you: (a) Dell hereby objects to and rejects all
+additional or inconsistent terms that may be contained in any purchase order
+or other documentation submitted by you in connection with your order; and (b)
+--More--(2%)
+
+
 
 
 
