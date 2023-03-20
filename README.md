@@ -1,6 +1,6 @@
 # Runbook for Initial Cluster Configuration on Cloud oneFS
 
-* Once the OneFS cluster successfully boots up, user will receive a sequence of prompts in order to perform the minimal cluster configuration before executing the bootstrap scripts. These steps can be followed exclusively on the console.
+Once the OneFS cluster successfully boots up, user will receive a sequence of prompts in order to perform the minimal cluster configuration before executing the bootstrap scripts. These steps can be followed exclusively on the console.
 
 ```sh
 Welcome to the Isilon IQ configuration wizard.
@@ -20,7 +20,7 @@ Select an option:
 	[ 4] Reboot into SmartLock Compliance mode
 Wizard >>>
 ```
-Type in `1`, and press `enter` to continue creating a new cluster. Next,
+* Type in `1`, and press `enter` to continue creating a new cluster. Next,
 
 ```sh
 *** IMPORTANT INFORMATION - PLEASE READ CAREFULLY ***
@@ -44,20 +44,20 @@ By the act of clicking "I accept," you agree (or re-affirm your agreement to) th
 Do you accept the EULA? [no]
 ```
 
-Type in `yes` and press `enter` to continue.
+* Type in `yes` and press `enter` to continue.
 
 ```sh
 Please change the root password from the default.
 Please enter new password for root:
 ```
 
-Type in appropriate new password, and press `enter` to continue.
+* Type in appropriate new password, and press `enter` to continue.
 
 ```sh
 Please re-enter password for root: 
 ```
 
-Re-type the password, and press `enter` to continue.
+* Re-type the password, and press `enter` to continue.
 
 ```sh
 Password changed.
@@ -66,13 +66,13 @@ Please change the UI admin password from the default.
 Please enter new password for admin:
 ```
 
-Type in appropriate new password for UI admin, and press `enter` to continue.
+* Type in appropriate new password for UI admin, and press `enter` to continue.
 
 ```sh
 Please re-enter password for admin:
 ```
 
-Re-type the password, and press `enter` to continue.
+* Re-type the password, and press `enter` to continue.
 
 ```sh
 Password changed.
@@ -82,7 +82,7 @@ Enter a new name for the cluster:
 Configure name >>>
 ```
 
-Type in the appropriate cluster name, (note: in this example runbook we are using cluster name as `vonefs-black-canary`). Press `enter` to continue.
+* Type in the appropriate cluster name, (note: in this example runbook we are using cluster name as `vonefs-black-canary`). Press `enter` to continue.
 
 ```sh
 !! WARNING: Limit cluster name to 11 characters or less when the
@@ -92,7 +92,7 @@ Type in the appropriate cluster name, (note: in this example runbook we are usin
 Proceed with cluster name vonefs-black-canary? [yes]
 ```
 
-Type in `yes` and press `enter` to continue.
+* Type in `yes` and press `enter` to continue.
 
 ```sh
 Cluster name set to vonefs-black-canary
@@ -124,7 +124,7 @@ Cluster encoding:
 Configure encoding >>>
 ```
 
-Type in `8` and press `enter` to continue.
+* Type in `8` and press `enter` to continue.
 
 ```sh
 Encoding set to utf-8
@@ -140,14 +140,14 @@ Configure interface int-a:
 Configure interface int-a >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Enter a new netmask
 Configure int-a netmask >>>
 ```
 
-Type in the appropriate netmask, (note: in this example runbook we are using netmask as `255.255.248.0`), and press `enter` to continue.
+* Type in the appropriate netmask, (note: in this example runbook we are using netmask as `255.255.248.0`), and press `enter` to continue.
 
 ```sh
 Configure interface int-a:
@@ -161,7 +161,7 @@ Configure interface int-a:
 Configure interface int-a >>>
 ```
 
-Type in `3`, and press `enter` to continue.
+* Type in `3`, and press `enter` to continue.
 
 ```sh
 Configure int-a IP ranges
@@ -172,21 +172,21 @@ Configure int-a IP ranges
 Configure int-a IP ranges >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Enter the low IP address of the range to add:
 Low IP address (add) >>>
 ```
 
-Type in appropriate low IP address, (note: in this example runbook we are using low IP address as: `10.3.104.2`), and press `enter` to continue.
+* Type in appropriate low IP address, (note: in this example runbook we are using low IP address as: `10.3.104.2`), and press `enter` to continue.
 
 ```sh
 Enter the high IP address of the range:
 High IP address (add) >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure int-a IP ranges
@@ -197,7 +197,7 @@ Configure int-a IP ranges
 Configure int-a IP ranges >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure interface int-a:
@@ -211,7 +211,7 @@ Configure interface int-a:
 Configure interface int-a >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure external subnet
@@ -221,7 +221,7 @@ Configure external subnet
 Configure external subnet >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Configure interface ext-1:
@@ -234,14 +234,14 @@ Configure interface ext-1:
 	         IP ranges: (not set)
 Configure interface ext-1 >>>
 ```
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Enter a new netmask
 Configure ext-1 netmask >>>
 ```
 
-Type in appropriate netmask, (note: in this example runbook we are using netmask as: `255.255.248.0`), and press enter to continue.
+* Type in appropriate netmask, (note: in this example runbook we are using netmask as: `255.255.248.0`), and press enter to continue.
 
 ```sh
 Configure interface ext-1:
@@ -255,7 +255,7 @@ Configure interface ext-1:
 Configure interface ext-1 >>>
 ```
 
-Type in `3`, and press `enter` to continue.
+* Type in `3`, and press `enter` to continue.
 
 ```sh
 Configure external IP ranges
@@ -266,21 +266,21 @@ Configure external IP ranges
 Configure ext-1 IP ranges >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Enter the low IP address of the range to add:
 Low IP address (add) >>>
 ```
 
-Type in appropriate low IP address, (note: in this example runbook we are using low IP address as: `10.3.96.2`), and press `enter` to continue.
+* Type in appropriate low IP address, (note: in this example runbook we are using low IP address as: `10.3.96.2`), and press `enter` to continue.
 
 ```sh
 Enter the high IP address of the range:
 High IP address (add) >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure external IP ranges
@@ -291,7 +291,7 @@ Configure external IP ranges
 Configure ext-1 IP ranges >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure interface ext-1:
@@ -305,14 +305,14 @@ Configure interface ext-1:
 Configure interface ext-1 >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Enter default gateway:
 Configure default gateway >>>
 ```
 
-Type in appropriate default gateway, (note: in this example runbook we are using gateway as `10.3.96.1`), and press `enter` to continue.
+* Type in appropriate default gateway, (note: in this example runbook we are using gateway as `10.3.96.1`), and press `enter` to continue.
 
 ```sh
 Configure SmartConnect settings
@@ -324,14 +324,14 @@ Configure SmartConnect settings
 Configure SmartConnect settings >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Enter SmartConnect zone name
 SmartConnect zone name >>>
 ```
 
-Type in appropriate SmartConnect zone name, (note: in this example runbook we are using `black-canary.onefs`), and press `enter` to continue.
+* Type in appropriate SmartConnect zone name, (note: in this example runbook we are using `black-canary.onefs`), and press `enter` to continue.
 
 ```sh
 Configure SmartConnect settings
@@ -342,14 +342,14 @@ Configure SmartConnect settings
 	 SmartConnect service IP: (not set)
 Configure SmartConnect settings >>>
 ```
-Type in `2`, and press `enter` to continue.
+* Type in `2`, and press `enter` to continue.
 
 ```sh
 Enter SmartConnect service IP
 SmartConnect service IP >>>
 ```
 
-Type in appropriate service IP, (note, in this example runbook we are using `10.3.96.3` as service IP), and press `enter` to continue.
+* Type in appropriate service IP, (note, in this example runbook we are using `10.3.96.3` as service IP), and press `enter` to continue.
 
 ```sh
 Configure SmartConnect settings
@@ -361,7 +361,7 @@ Configure SmartConnect settings
 Configure SmartConnect settings >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure DNS settings
@@ -373,7 +373,7 @@ Configure DNS settings
 Configure DNS settings >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure external subnet
@@ -383,7 +383,7 @@ Configure external subnet
 Configure external subnet >>>
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure cluster date and time
@@ -393,7 +393,7 @@ Configure cluster date and time
 Configure date >>> 
 ```
 
-Press `enter` to continue.
+* Press `enter` to continue.
 
 ```sh
 Configure cluster join mode
@@ -403,7 +403,7 @@ Configure cluster join mode
 Configure join mode >>>
 ```
 
-Type in `1`, and press `enter` to continue.
+* Type in `1`, and press `enter` to continue.
 
 ```sh
 Join mode set to Manual.
@@ -423,4 +423,4 @@ Do you wish to commit these changes? [yes]
 Commit changes? >>>
 ```
 
-Type in `yes`, and press `enter` to finish the initial setup wizard.
+* Type in `yes`, and press `enter` to finish the initial setup wizard.
