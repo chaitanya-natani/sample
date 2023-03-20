@@ -2,6 +2,8 @@
 
 Once the OneFS cluster successfully boots up, user will receive a sequence of prompts in order to perform the minimal cluster configuration before executing the bootstrap scripts. These steps can be followed exclusively on the console.
 
+Below steps shows the inputs provided to the prompts and their output.
+
 ```sh
 Welcome to the Isilon IQ configuration wizard.
 Copyright (c) 2001-2020 Dell Inc. All Rights Reserved.
