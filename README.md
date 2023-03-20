@@ -8,8 +8,8 @@ Enter <span class="hljs-string">'back'</span> at any prompt to <span class="hljs
 Enter <span class="hljs-string">'quit'</span> at any prompt to discard all changes.
 Enter <span class="hljs-string">'manual'</span> at any prompt to switch to manual mode (console).
 
-    Node build: Isilon OneFS <span class="hljs-number">9.1</span>.<span class="hljs-number">0.14</span> B_9_1_0_003(RELEASE) 
-    Node serial number: SV200-<span class="hljs-number">153267</span>-<span class="hljs-number">4182</span>
+    Node build: Isilon OneFS 9.1.0.14 B_9_1_0_003(RELEASE) 
+	Node serial number: SV200-153267-4182
 
 Select an option:
     [ <span class="hljs-number">1</span>] Create a new cluster
