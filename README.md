@@ -29,8 +29,8 @@ agreement with Dell EMC that specifically applies to your order, and the End
 User License Agreement (E-EULA), which are each presented below in the
 following order:
 
-*       Commercial Terms of Sale
-*       End User License Agreement (E-EULA)
+\*       Commercial Terms of Sale
+\*       End User License Agreement (E-EULA)
 
 The Commercial Terms of Sale for the United States are presented below and
 are also available online at the website below that corresponds to the country
